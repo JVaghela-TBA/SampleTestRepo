@@ -1,1 +1,1 @@
-from one import demo;
+from one import *;
