@@ -6,8 +6,7 @@
     <ProjectGuid>09ffe07e-2fbb-4b90-9795-5eaaa0952777</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>SamplePythonTest.py</StartupFile>
-    <SearchPath>
-    </SearchPath>
+    <SearchPath>Sample\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>SamplePythonTest</Name>
@@ -23,6 +22,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="SamplePythonTest.py" />
+    <Compile Include="Sample\one.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sample\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Sample\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
